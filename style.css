@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    font-family: "Exo 2", sans-serif;
+    color: var(--quaternary-color);
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background: var(--secondary-color);
+}
+
+:root {
+    --primary-color: #191919;
+    --secondary-color: #ffffff;
+    --tertiary-color: #4da6ff;
+    --quaternary-color: #c7edff;
+    --extra-color: rgb(255, 132, 0);
+}
+.container{
+    background: var(--quaternary-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator{
+    width: 325px;
+    background: var(--primary-color);
+    padding: 20px;
+    border-radius: 8px;
+}
+.btnContainer input{
+    margin: 8px 4px;
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    cursor: pointer;
+}
+.btnContainer #operator{
+    background: var(--extra-color);
+    color: var(--secondary-color);
+}
+
+.form .display input{
+    width: 100%;
+    outline: 0;
+    border: 0;
+    padding: 30px 20px 10px 20px;
+    margin: 20px 0px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+    border-radius: 4px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: right;
+}
+.btnContainer .equalBtn{
+    width: 130px;
+    background: var(--quaternary-color);
+}
