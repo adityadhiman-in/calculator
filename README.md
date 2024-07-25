@@ -28,7 +28,7 @@ A simple and elegant calculator built with HTML, CSS, and JavaScript. This calcu
 
 ## Demo
 
-You can try the live demo of the calculator [here](#).
+You can try the live demo of the calculator [here](https://adityadhiman-in.github.io/calculator/).
 
 ## Installation
 
@@ -36,7 +36,7 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/calculator-pro.git
+   git clone https://github.com/adityadhiman-in/calculator
    ```
 2. Navigate to the project directory:
    ```bash
